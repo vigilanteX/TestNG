@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite1" parallel="methods" thread-count="15">
+    <test name="test1">
+        <classes>
+            <class name="org.example.XML.ParallelMethods.Class1">
+
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="org.example.XML.ParallelMethods.Class2"/>
+            <class name="org.example.XML.ParallelMethods.Class3">
+
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
